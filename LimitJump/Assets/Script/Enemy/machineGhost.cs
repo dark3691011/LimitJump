@@ -15,7 +15,7 @@ public class machineGhost : MonoBehaviour
     public float timeJump=0.5f;
 
     //End game
-    public GameObject Door;
+    GameObject Door;
 
     //for move right or left
 	public bool facingRight;
@@ -24,7 +24,7 @@ public class machineGhost : MonoBehaviour
     //for gear
     public GameObject[] HP;
     public GameObject[] Body;
-    int gear;
+    int gear=1;
     float speed2;
     float speed1;
     float gravity2;
@@ -36,9 +36,15 @@ public class machineGhost : MonoBehaviour
     {
         rb =GetComponent<Rigidbody2D>();
         waitingtime =waitingtimeValue;
+        HP = GameObject.FindGameObjectsWithTag("EHeart");
         HP[0].SetActive(true);
         HP[1].SetActive(false);
         HP[2].SetActive(false);
+
+        Body = GameObject.FindGameObjectsWithTag("EBody");
+        Door = GameObject.FindGameObjectWithTag("Door");
+
+        Door.SetActive(false);
 
         //second gear
         speed2 = speed*3;
@@ -47,9 +53,7 @@ public class machineGhost : MonoBehaviour
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
 
-    void Update(){
-        
-    }
+
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -63,7 +67,7 @@ public class machineGhost : MonoBehaviour
             HP[2].SetActive(true);
             gear = 3;
         } else if (HP[2].GetComponent<Enemy>().isDead()) {
-            gear = 4;
+            gear = 0;
         }
 
         //active gear
@@ -78,7 +82,7 @@ public class machineGhost : MonoBehaviour
             case 3:
                 Gear3();
                 break;
-            case 4:
+            case 0:
                 Door.SetActive(true);
                 Destroy(gameObject);
                 break;
