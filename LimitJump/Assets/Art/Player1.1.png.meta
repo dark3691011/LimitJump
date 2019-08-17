@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 2ef36c189d0f40249a00ba40b496c927
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6555497416604475261
+    second: eye11
+  - first:
+      213: 3223439971956443484
+    second: eye12
+  - first:
+      213: -7815578778439160028
+    second: eye21
+  - first:
+      213: 4607473351938775918
+    second: eye22
+  - first:
+      213: -8768946877184322276
+    second: face
+  - first:
+      213: -3906306310508615621
+    second: rightarm
+  - first:
+      213: 8406259886800904923
+    second: leftarm
+  - first:
+      213: -6235454833737404558
+    second: righthand
+  - first:
+      213: 1575344019713260555
+    second: lefthand
+  - first:
+      213: 7979532264259680331
+    second: body
+  - first:
+      213: 1573857268027394421
+    second: rightfoot
+  - first:
+      213: 2840198535470433951
+    second: leftfoot
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: eye11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9d7744542e3bb439e5cfdeebe073f1
+      internalID: 6555497416604475261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye12
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 130
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af62e5c64bd374a4a94c19c8d8b12a65
+      internalID: 3223439971956443484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye21
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 119
+        width: 32
+        height: 27
+      alignment: 9
+      pivot: {x: 0.53677535, y: 0.6525506}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ef26c1401ec3c429c150a6aa3fcf56
+      internalID: -7815578778439160028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eye22
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 120
+        width: 25
+        height: 25
+      alignment: 9
+      pivot: {x: 0.54707277, y: 0.64121825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779ea26705e956c48abd485cf5013adb
+      internalID: 4607473351938775918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: face
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 38
+        width: 133
+        height: 105
+      alignment: 9
+      pivot: {x: 0.50442404, y: 0.032075282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bb9eca551bc0b469cc7ddbe2c7ff17
+      internalID: -8768946877184322276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightarm
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 67
+        width: 20
+        height: 26
+      alignment: 9
+      pivot: {x: 0.79420394, y: 0.8620975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94313fcc15c432840b9ec2f2772dd966
+      internalID: -3906306310508615621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leftarm
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 67
+        width: 19
+        height: 26
+      alignment: 9
+      pivot: {x: 0.2677335, y: 0.9073595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab951292253b8b04d90173e2907800d6
+      internalID: 8406259886800904923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: righthand
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 38
+        width: 22
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.87444186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79547ad49d15ed34587c61460cff8f91
+      internalID: -6235454833737404558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lefthand
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 39
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.42644882, y: 0.8971758}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061b73731f5929c408773aaa30c2cf49
+      internalID: 1575344019713260555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 3
+        width: 64
+        height: 56
+      alignment: 9
+      pivot: {x: 0.509194, y: 0.04818631}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19c66ab38e92894f9b15abda47267d4
+      internalID: 7979532264259680331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rightfoot
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3
+        width: 23
+        height: 22
+      alignment: 9
+      pivot: {x: 0.3976681, y: 0.9011877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56747efd415901f4db34e5a91d0b7168
+      internalID: 1573857268027394421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leftfoot
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 2
+        width: 22
+        height: 24
+      alignment: 9
+      pivot: {x: 0.4732541, y: 0.8922725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f271d698306259c43b8f14a17b4b7516
+      internalID: 2840198535470433951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

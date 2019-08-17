@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Door
+  - Enemy
+  - Water
+  - Weapon
+  - Weapon1
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: hand2
+    uniqueID: 770812099
+    locked: 0
+  - name: foot
+    uniqueID: 3067827463
+    locked: 0
+  - name: body
+    uniqueID: 390812843
+    locked: 0
+  - name: head
+    uniqueID: 1356769247
+    locked: 0
+  - name: hand1
+    uniqueID: 1804202789
+    locked: 0
